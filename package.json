@@ -4,7 +4,8 @@
   "description": "demo",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/chenwei791129/autorelease-workshop/issues"
   },
-  "homepage": "https://github.com/chenwei791129/autorelease-workshop#readme"
+  "homepage": "https://github.com/chenwei791129/autorelease-workshop#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.0"
+  }
 }
